@@ -1,7 +1,8 @@
 html {
 	background-color: #0D010A;
 	background-image: url("../images/maui_sunset.jpg");
-	background-repeat: none;
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 body {
@@ -61,7 +62,9 @@ footer{
 }
 
 .navigation {
+	width: 270px;
 	color: #0D010A;
+	float: right;
 }
 
 .nav_links{
@@ -70,10 +73,16 @@ footer{
     padding: 0;
 }
 
-/*li a {
-	display: block;
-    width: 60px;
-}*/
+li, .nav_li{
+	float: left;
+}
+
+.link {
+	color: #0D010A;
+	text-decoration: none; 
+    display: block;
+    padding: 20px 10px 10px 20px;
+}
 
 .aisha_img {
 	height: 200px;
