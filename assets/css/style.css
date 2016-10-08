@@ -23,10 +23,14 @@ h2 {
 	font-weight: bold;
 }
 
-p {
+p, label, input, textarea{
 	font-size: 12px;
 	padding: 10px;
 	color: #777;
+}
+
+input, textarea{
+	margin: 10px;
 }
 
 header{
@@ -58,7 +62,7 @@ aside{
 }
 
 footer{
-	clear: both; c
+	clear: both; 
 	background: #4aaaa5;
 }
 
@@ -105,6 +109,51 @@ footer{
 	float: left;
 	max-height: 48px;
 	padding: 10px;
+}
+
+.submit_button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.portfolio_grid{
+	clear: both;
+	margin:0 auto;
+}
+
+.portfolio_item{
+	height: 200px;
+	width: 270px;
+	margin:10px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+.portfolio_img1, .portfolio_img2, .portfolio_img3, .portfolio_img4, .portfolio_img5{
+	width: 270px;
+	z-index: 0;
+}
+
+.porfolio_caption1, .porfolio_caption2, .porfolio_caption3, .porfolio_caption4, .porfolio_caption5{
+	margin:0 auto;
+	padding: 0;
+	position: absolute;
+	top: 135px;
+	z-index: 1;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	width: 270px;
+	background: #4aaaa5;
+	font-size: 14px;
 }
 
 .copyright {
